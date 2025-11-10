@@ -29,3 +29,5 @@ local BoosterKeys = {
     ["QVdepHVWoLkdAVhIqmqTeeMshOUBNEIc"] = "cb8f048b-b5f3-11ed-a036-806e6f6e6963", -- 28 / 4.12.2025 / 1309234273881948202
     --["LicenseKey"] = "", -- id / time / id
 }
+
+return BoosterKeys;
