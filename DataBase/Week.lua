@@ -1,6 +1,6 @@
 local WeekKeys = {
     -- Example: [""] = "",
-    --Week
+    -- Week
     ["42977047a4e45bf7f72feaef11ca6742"] = "", -- 916661200501243915 / 25.5.2025
     ["db16c0624a6fffdef3f67b34b622db0d"] = "", -- 560398773189345290 / 26.5.2025
     ["c4b5aff3e0ce8ad32fc4d20e32b64222"] = "", -- 448550510350303245 / 27.5.2025
@@ -42,7 +42,6 @@ local WeekKeys = {
     ["mmYczyFBiNqdBZWPeAZLGVvtfDSLJeuc"] = "", -- 
     --["wJlnhjLXnacmHbtRixflWOCfjNMYZXZV"] = "dd04119c-ff6d-11ef-a030-806e6f6e6963", -- 1362475795611648120 / 9.11.2025
     ["nKjDZZuzLMvIBwhgoYeGYAIsEVgwcqiF"] = "801361ca5b08eb0d3e9fddb107968370fb1056a3be7841222b0fa940ac778c5074e5ae261df22f6a5e02f0804f2d0b8a", -- 1024023389276491856 / 17.11.2025
-    [""] = "", -- id / id / time
 }
 
 return WeekKeys;
