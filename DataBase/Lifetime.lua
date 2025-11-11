@@ -1,38 +1,5 @@
-local Premium = {
+local LifeTime = {
     --[""] = "",
-    
---[[ Event
-    ["BFIcSDVCUtIlFXVzWqlrRMGXMmWgTIaQ"] = "20709906-C183-4106-B7FA-7A75D4EE6439", -- 899447082316873769
-    ["BDdUxEAWUDjMGBOcVgNrVHMTTfBXdvcA"] = "62623138306363376134363164623766666333313966623338346264613961623732376465333733623266393832643764363739343237653161303738393932", -- 302800422714867712
-    ["qWiUhGcNtJeYYSBoagXYoKuCeAQGyVed"] = "e00f4c6c-af56-431a-81c8-0f7252576e8e", -- 1373948309042892971
-    ["SaXknnqwjucGnWLEpKHfGiExtIlwhHio"] = "39313632356339653738636235336632643137353635303737636531326661626136653365393736373631653165306333353832393065366239343732623934", -- 539415390829150209 
-    ["GSOhvmBqsXHypcMksSJIBRBRoBTfYMFy"] = "38386133393937373761613133323535356566353035393461613662653461636263616237663066326430323161313536663938373331633463306465326366", -- 1432215642970263594
-    ["fxoIJCOVwtRBQmuSjOVdFnrXkIICfohl"] = "01a3193e-eb31-11ef-98be-806e6f6e6963", -- 1432215642970263594
-]]
-
-    -- Custom
-    ["e390c508b41705b259eb8147a918d638"] = "A38158FA-1DDE-4636-939B-10FEE74B5BC6", -- Gidjohn / 878680035991646230
-    ["21d533046d5cbf2c9d1048e15b4d279c"] = "2D9A5560-0997-4DB6-B205-8C4F79B6F273", -- shit nigga shmegh / 1051374890453843978
-    ["60538cc534d2f1f0800cdde65b8d4a4a"] = "8E68B069-88E6-4D08-ACE0-187259B2B55E", -- eGORKa
-    ["f6b9556b14da799ea7cd8a510a6d5107"] = "8176601c-1204-45b1-8f98-919fa706dfb1", -- Тимофей
-    ["lTYaMUznXpcWolbfHddtrLHZtvXKsXNY"] = "039C7F14-98A3-4CEF-801B-A08F4425A613", -- hENris Friend / 1274434460590543029
-    ["jWwTmjiUIFjnqYXjkKWbIbbeIMfQxihc"] = "60D10C80-0BB4-445C-A9F4-A919E4D1C2A2", -- SGMetro / 1115885772608897086
-    ["ZCxYQAiyFRAnPdJQfwmyLGvvYugEIaYt"] = "", -- Ugphone / 1181624415667093607
-    ["vxDcikXMfsTTwRcOdPLSfwTFHqYpVnFs"] = "6e1fe8e3bd51ef7f6e95ae5f8b5f96e9e914c9fc3f460c37c4dfcb3295381516", -- Hub Dev / 687304056762531916
-
-    -- Giveaways
-    ["c748508ee155be7fbad911a219a06873"] = "", -- 1 / 724448024134156348 / 2.6.2025
-    ["d4287932bd934a05e23c3500f6dde524"] = "", -- 2 / 678237150323671040 / 4.6.2025
-    ["72975aa78028869d5209c0e3203efe61"] = "", -- 3 / 857189103929786368 / 19.5.2025 -- 
-    ["00dc11a96239a6b8a9c666745ab85036"] = "", -- 4 / 595676432982736898 / 14.6.2025
-    ["8cba5a22044d9095d885aa6aac0e0a18"] = "", -- 5 / 930888339761016862 / 22.5.2025 -- 
-    ["824f99c503a48b0680256518d1cb5ae6"] = "", -- 7 / 1267873791007129623 / 9.6.2025
-    ["vWxXwbQkFayXriqXZsYJLzXsOrwIwtrR"] = "7363E10B-549A-4F54-8F69-8D2CD15154C5", -- 8 / 1191442189348257833 / lifetime
-    ["CtkqqBiTHXYXnsoDhavTmXSNeZBWPvsl"] = "744aaa03-8fe6-4e8a-831e-f846e81f9ca0", -- 9 / 277624467344064512 / lifetime
-    ["omWokNFbJGwmBRpmoHdtsPHbNcANnjYk"] = "751b72fc-4cd6-4eac-8f0a-c0c36e3d2875", -- 10 / 1409551640297476278 / lifetime
-    ["mCbyerWEZyJYkqAGJmzcFthcDetsMCzS"] = "7342e83bcd9c174be1f43967c69c4b87c83e43ed16280b18f64a7cd0f631252c", -- 11 / 411340997071601664 / lifetime
-    [""] = "", -- id / id / time
-    
     -- Новые баеры LifeTime
     ["63dfe2f1d4f85011557a003281a9c938"] = "7C99660C-9E02-448E-B138-A92C74086E6C", -- 1 / 1114644320885162135
     ["e83bc4b5d40852cfc08252d976d98ece"] = "D306EDDA-A8F0-47E8-8BB8-E527301C9E75", -- 2 / 492709077550628864
@@ -80,77 +47,6 @@ local Premium = {
     ["pfVHJBtkceOjzZskdTDzaYXXlNzIYLaE"] = "", -- id
     ["rwRFeRUDgttVfVZNSVrlHxPhnXUqbTsw"] = "519F1493BED44AF04FBE6FE04C8C766AA4E4AC192BA40064C10130DAFD24FF48", -- 1024023389276491856
     ["yutWKayYItfScZtkHKMWSneufwprYhrw"] = "cc127f23337b00cd57922ad3a77504a79f2faaec9ad2e2ca84f0a1e75c7d950e309a9a64d74afca168366ad9e8015c188f79634740db905b3dc3464fbd38a54b", -- 989303286798647307
-    [""] = "", -- id / id / time
-
-    -- Month
-    ["e3cf2ae07a0db628474c43f2409ca0e5"] = "", -- 2 / 1165711973741232139 / 22.6.2025
-    ["463503394c53470a4a06b0deb7eb1f54"] = "", -- 3 / 681894090689740812 / 31.7.2025
-    ["e6e2c3a3e27a4cc134b6e79652c256b3"] = "", -- 25 / 1317865690056626207 / 19.8.2025
-    ["bfd2f60628b7b9ed2e907e6ad2b2cccc"] = "", -- 26 / 947804713615757343 / 21.8.2025
-    ["166d95b89986f6f85f576e507b32ac37"] = "", -- 28 / 1124252914228150303 / 29.8.2025
-    ["dnGDTwRIikexYXOQNfCMQNbHITENYPiQ"] = "", -- 30 / id / time
-    ["yXAvtAcePrUnpYEcCtccYrBnRDYQLDWq"] = "", -- 32 / id / time
-    ["GcBRVZYhZTrfMaBwgRdJPYtHpAJGdUAe"] = "", -- 33 / id / time
-    ["rUkclEwtKDaUmskydhjBklLthDCnZSAv"] = "", -- 34 / id / time
-    ["yKwKcRGpyyRmiMiFQcqVdnjYCNkjkrzm"] = "", -- 35 / id / time
-    ["tAWaJRFblboFzecEVUGECYFifrzhuyLS"] = "", -- 36 / id / time
-    ["tWykvyMgZbsbRHNGcdFTlupgZeFmRxSn"] = "", -- 37 / id / time
-    ["gEhsPukWYpgryRCPoIhszSWVqqdzTmiK"] = "", -- 38 / id / time
-    ["TGBxzyHGdOtFlfTbStOMGEmAzbvOJydc"] = "", -- 39 / id / time
-    ["gOZOGdYFXMwqalYLHsHYHWsAemEsywTz"] = "", -- 
-    ["CSPtDOhAGjriAZFltfNgVenGXvWKHfjg"] = "", -- 
-    ["PDenCLxxqGNjCLCqUrmjunpOJWkiDrsy"] = "", -- 
-    ["FnoWRUDXqYowEcLkiONIVLkTjmaAmkFP"] = "", -- 
-    ["LPfHRcIsbrsyWEDXSwOljujpJIpuspeJ"] = "", -- 
-    ["FEqFIGKWjLVszjWPzbjgFeiNJgwLeADf"] = "", -- 
-    ["fPmhrTWDYBvvcEPfwMWczbJFkvRnbNeB"] = "", -- 
-    ["OmHEXsRPEpcgBtraJrmiQReMIkFtnmtm"] = "", -- 
-    ["DToUjlEmSkEudVhoFAUxAcUeGXpyhBAj"] = "", -- 
-    ["hZEdVQzjpyMObHQwdVGkKFzYqxIkyyVA"] = "", -- 
-    [""] = "", -- id / time
-    
-    --Week
-    ["42977047a4e45bf7f72feaef11ca6742"] = "", -- 3 / 916661200501243915 / 25.5.2025
-    ["db16c0624a6fffdef3f67b34b622db0d"] = "", -- 4 / 560398773189345290 / 26.5.2025
-    ["c4b5aff3e0ce8ad32fc4d20e32b64222"] = "", -- 5 / 448550510350303245 / 27.5.2025
-    ["57d07d61c41dea9c73cafb83498dbaa7"] = "", -- 7 / id / time
-    ["78368704846d72b9c730757447dfd4b6"] = "", -- 8 / id / time
-    ["0e4fe9284c6ee73a0b9b5430fdbf988b"] = "", -- 9 / id / time
-    ["1383e5dcdccdd03d2741a7b6852afeda"] = "", -- 10 / 452064295115554847 / 31.7.2025
-    ["739ef1967f9adb69de400d4270262b65"] = "", -- 11 / 824923566880325673 / 18.10.2025
-    ["0cea73bea6206b37485a3114e2992f46"] = "", -- 24 / 595950831832924160 / 29.5.2025
-    ["742e516000ba3a42e45f3316b5a178a5"] = "", -- 25 / 765340589738688523 / 17.5.2025
-    ["74bc5fbdc94bb6aca5ed597da52bce87"] = "", -- 26 / id / time
-    ["acc400411791da508d79fbe9d9431d26"] = "", -- 31 / 1331067626989813874 / 23.7.2026
-    ["7aab2c18ed8e54187553adb3fcd52558"] = "", -- 32 / 1160269291015385239 / 17.5.2025
-    ["2bfadf057564a9bfba6cdba349dda87d"] = "", -- 33 / 1117087613078220820 / 8.6.2025
-    ["b18dd1bf86fdeedaf6eeae35ff3dfd36"] = "", -- 34 / 1171590593785372702 / 7.7.2025
-    ["nkiXKiyqOwPTOVujczGwBXNhJmbBnQJl"] = "", -- 35 / id / time
-    ["YuMabufWstwsuodHzMQHupkQfBpdFRiF"] = "", -- 36 / id / time
-    ["FAKtkZtiNiHIeDiszbAuUEFklrqJmncU"] = "", -- 37 / 1372075505137877012 / 14.8.2025
-    ["igWhgkYACpfQPPXRApalYQbxtmgABSlX"] = "", -- 38 / 988859058318639175 / 10.8.2025
-    ["LgfBVwrmPljuSLWiLhkSSrYvGfqHzgZG"] = "", -- 39 / id / time
-    ["ahNWTQQOCpnbqQZNwSEwDepyysEXogfU"] = "", -- 40 / 1276768378752733227 / 30.8.2025
-    ["yCGcOKKASiGMDzlOVckmezOlIqUmtTtL"] = "", -- 41 / id / time
-    ["swSlnecYxiCUSzohHXcTCDUlmHWAiLFL"] = "", -- 42 / id / time
-    ["BHKUJrXGEbdmudOmQXCpRDcMzyxthIDL"] = "", -- 43 / id / time
-    ["BXpvyFjvkjRCTHNTjWjQTwValeSqrtOt"] = "", -- 44 / 1116697000117797054 / 26.9.2025
-    ["NropbXOrflWysQMZFdtjnKlVZUjpdcQP"] = "", -- 45 / 592155291693350923 / 6.9.2025
-    ["OxxmgysCFDiJxTPnsQrLhITVTWIwfkTm"] = "", -- 46 / 464971713378123816 / 8.10.2025
-    ["OgqqejgDLSvrkEEZiWGKwYoQeHdVHliQ"] = "", -- 47 / 422045582723645440 / 17.10.2025
-    ["nkvrTaCdQRwttPrRJQiYYVAwvwHPbiCu"] = "", -- 48 / 616172537688358932 / 28.10.2025
-    ["CHzGPVOTLTKJgicdBXxSmwqIAoclRyJd"] = "8bb2bf2a-60f7-11f0-8711-806e6f6e6963", -- 1058379870721298602 / 7.11.2025
-    ["hnnyKWVPUFLQQVivmiFAdMCDkhVrzYRY"] = "0a7e1ec83534814d2f5c56d0d54279acc079e3bf1dfa7b8b3160513453c4898a", -- 894930344057389076 / 12.11.2025
-    ["WttunOlDdeJvrwNwAHyyzsDWHufIVIdp"] = "45f9314aa76e3cddece06b7c9a335c1467b105b721573c728130b157fb5aac98", -- 1345020701681389568 / 15.11.2025
-    ["nEQFtLnTYjwhAnHUEwlnaPPIIjatSPxP"] = "", -- 
-    ["wnKtFELQrcbXYNvhuDNYxAyKHbUZgspX"] = "", -- 
-    ["oMBmHlLEQvNxmcGKbffpcSWDccmPxJVQ"] = "", -- 
-    ["jQUgtJGeIHPpmctPwTftDuFgFelqBEJS"] = "", -- 
-    ["zpXPfCOViEcXqeGAMKbvmRDyrEhStZUG"] = "", -- 
-    ["JdlrjWzLUBxspKLAkmIduZkXsuTsZiky"] = "", -- 
-    ["mmYczyFBiNqdBZWPeAZLGVvtfDSLJeuc"] = "", -- 
-    --["wJlnhjLXnacmHbtRixflWOCfjNMYZXZV"] = "dd04119c-ff6d-11ef-a030-806e6f6e6963", -- 1362475795611648120 / 9.11.2025
-    ["nKjDZZuzLMvIBwhgoYeGYAIsEVgwcqiF"] = "801361ca5b08eb0d3e9fddb107968370fb1056a3be7841222b0fa940ac778c5074e5ae261df22f6a5e02f0804f2d0b8a", -- 1024023389276491856 / 17.11.2025
     [""] = "", -- id / id / time
 
     -- Старые баеры
@@ -213,3 +109,5 @@ local Premium = {
     ["28b6631851e06cda24ddd12b03cb2b17"] = "", -- 58 / 1270430515937284168
     ["2e1b1b3e8d3b538611f0ead5b40820f4"] = "FDB21D4B-CD6F-466E-AFC8-915942754C34", -- 59 / 720681674374905958
 }
+
+return LifeTime;
