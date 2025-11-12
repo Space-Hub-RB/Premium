@@ -42,7 +42,7 @@ local WeekKeys = {
     ["mmYczyFBiNqdBZWPeAZLGVvtfDSLJeuc"] = "", -- 
     --["wJlnhjLXnacmHbtRixflWOCfjNMYZXZV"] = "dd04119c-ff6d-11ef-a030-806e6f6e6963", -- 1362475795611648120 / 9.11.2025
     ["nKjDZZuzLMvIBwhgoYeGYAIsEVgwcqiF"] = "801361ca5b08eb0d3e9fddb107968370fb1056a3be7841222b0fa940ac778c5074e5ae261df22f6a5e02f0804f2d0b8a", -- 1024023389276491856 / 17.11.2025
-    -- Test
+    ["OgZmjWYWDHKkcXVVIUGqSEFuxBvceUEs"] = "846f49ac9945c203ce63aedce801e7d7055d1bf92f41a43b264d27d8b64f8700597a26d3aceb6f9f8dec1335ecc1831f", -- 690603246003290162 / 19.11.2025
 }
 
 return WeekKeys;
