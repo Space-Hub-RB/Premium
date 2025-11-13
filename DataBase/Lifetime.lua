@@ -46,10 +46,10 @@ local LifeTime = {
     ["kMOZfmFAiztgcohXwEmxpabWKUNGXfeF"] = "", -- id
     ["pfVHJBtkceOjzZskdTDzaYXXlNzIYLaE"] = "", -- id
     ["rwRFeRUDgttVfVZNSVrlHxPhnXUqbTsw"] = "519F1493BED44AF04FBE6FE04C8C766AA4E4AC192BA40064C10130DAFD24FF48", -- 1024023389276491856
-    ["yutWKayYItfScZtkHKMWSneufwprYhrw"] = "cc127f23337b00cd57922ad3a77504a79f2faaec9ad2e2ca84f0a1e75c7d950e309a9a64d74afca168366ad9e8015c188f79634740db905b3dc3464fbd38a54b", -- 989303286798647307
+    ["yutWKayYItfScZtkHKMWSneufwprYhrw"] = "2c2b3b5c-c0c6-11f0-9b90-806e6f6e6963", -- 989303286798647307
     [""] = "", -- id / id / time
 
-    -- Старые баеры
+    -- Старые баеры / old buyers 2024 August-November
     ["f4b2439089153d63b36fe0bf3fe720b6"] = "5ae45011-ac42-4845-bd96-32ccc42bbea3", -- 1 / 1155928260778147860
     ["66bf9b8c360d893eb25de72c1efbc5f0"] = "", -- 2 / 623868221660987412
     ["76c73e371afe57b84975fd641c2cd4d6"] = "", -- 3 / 983061473834205305
