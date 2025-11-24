@@ -7,6 +7,9 @@ local LocalPlayer = Players.LocalPlayer
 if TDS then
     getgenv().GameName = "TDS";
 end
+if game then
+    getgenv().GameName = game;
+end
 if not script_key then
     LocalPlayer:Kick("Use | script_key=\"\"")
     warn("[Space Hub]: Not script_key in loader")
