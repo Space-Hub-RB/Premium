@@ -50,6 +50,7 @@ local LifeTime = {
     ["krIkDcWRJqABVvqRjKldyfOfdEtzfeBF"] = "d354fbbc-9a89-11f0-af3f-806e6f6e6963", -- 1067351704154165268
     ["SLJNvpjMqFBgSTcFEikZhhpsZGjVNddD"] = "87cf0967d8c6576103abe6748909a781e04df21f3f1608d8313b3d9d82bbe58a", -- 428184219995602976
     ["QdiIwnvmPrRfEugvKALenDzFGgAsekxl"] = "061fb3d8-a795-11ef-b8b8-806e6f6e6963", -- 930697365483057212
+    ["CvZrVXcUiCcqsPKOJArEpwgAFGNGqtVd"] = "c1d03e98af88754791562ca65f8d038fd834e7ad9c51b972577af48bf8b0702b1cce066a511aaf317d0e2e70e3a6ac48", -- 303274633707126796
     [""] = "", -- id / id / time
 
     -- Старые баеры / old buyers 2024 August-November
