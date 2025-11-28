@@ -1,3 +1,0 @@
-local BoosterKeys = {
-}
-return BoosterKeys;
