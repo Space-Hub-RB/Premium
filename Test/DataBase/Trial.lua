@@ -1,3 +1,16 @@
 local TrialKeys = {
+    ["fxoIJCOVwtRBQmuSjOVdFnrXkIICfohl"] = "01a3193e-eb31-11ef-98be-806e6f6e6963",
+    ["SaXknnqwjucGnWLEpKHfGiExtIlwhHio"] = "1fc9d998-20fc-11f0-afe9-806e6f6e6963",
+    ["QVdepHVWoLkdAVhIqmqTeeMshOUBNEIc"] = "cb8f048b-b5f3-11ed-a036-806e6f6e6963",
+    ["hZnTwolXcmWdmtOKXFepFvvwwYXbtShF"] = "d28ca88c9d7956a74326ab6bc8222395ace98d7950f561a2a7f58776053e84712d1af3cc93a53d57703567a75bc5856a",
+    ["yKwKcRGpyyRmiMiFQcqVdnjYCNkjkrzm"] = "2caa297489805be3a8be4d105fe199528219b119009944351981d34e4aa628a43c5a227e32cabfda37498c873962cc154bb95c0ba902640bcb71c5d8fabd125e",
+    ["RXplpvgkzIohDVrbLycfDNdvziKCapJM"] = "df565eebc834fabb46a25b6d53d6b47cc83f6e49aa50dd6c4f9a2a4a3334ed0a32e73757d3ec2504edc3c764e5bc531a51bd59867918931237e70d072adaf3a8",
+    ["gOZOGdYFXMwqalYLHsHYHWsAemEsywTz"] = "A981F8ECBEE8B6C4D281A0513F3BBDA1AFE038CDCE0BC04B767313378E2A807F",
+    ["wnKtFELQrcbXYNvhuDNYxAyKHbUZgspX"] = "b3f640f38159bbd9cd77b895c33d2ddf1c2f2cf866cbe987d9c31e2444b38b8d2d3092a112eb6598089808b7518f28da",
+    ["EzWTwshnHedwutTAWETydyZJBNeSswaf"] = "8f556b77-bb36-11f0-8f4e-806e6f6e6963",
+    ["ailfmhllmQTMJwRmrkyADHjbHGKLJcZf"] = "d28788cf-335d-11f0-9a1a-806e6f6e6963",
+    ["ImOmFQOkTcCjgrOAinMtOsbxgBLwdJsT"] = "f4673cff-c74d-11f0-9c23-806e6f6e6963",
+    ["oMBmHlLEQvNxmcGKbffpcSWDccmPxJVQ"] = "6f58b4bee1dd3164a73d46abb67059ab12402d064c36377b6a7402d30cb9fd4d8967bff155e61e40660dc2fb48b2b3fc",
+    ["cMWuuyjBZoiIdysiAfPCYINMKcngoSzU"] = "846f49ac9945c203ce63aedce801e7d7055d1bf92f41a43b264d27d8b64f8700597a26d3aceb6f9f8dec1335ecc1831f",
 }
 return TrialKeys;
