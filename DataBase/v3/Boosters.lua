@@ -1,1 +1,3 @@
-
+local BoosterKeys = {
+}
+return BoosterKeys;
