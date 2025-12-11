@@ -38,115 +38,132 @@ local CloseButton = Instance.new("TextButton");
 local CloseCorner = Instance.new("UICorner");
 local ContentFrame = Instance.new("Frame");
 local ButtonContainer = Instance.new("Frame");
-local GemsButton = Instance.new("TextButton");
-local GemsCorner = Instance.new("UICorner");
-local MoneyButton = Instance.new("TextButton");
-local MoneyCorner = Instance.new("UICorner");
+local AutoMoneyButton = Instance.new("TextButton");
+local AutoMoneyCorner = Instance.new("UICorner");
+local AutoGemsButton = Instance.new("TextButton");
+local AutoGemsCorner = Instance.new("UICorner");
+local MacroButton = Instance.new("TextButton");
+local MacroCorner = Instance.new("UICorner");
 local Footer = Instance.new("Frame");
 local DiscordLabel = Instance.new("TextLabel");
 local Divider = Instance.new("Frame");
 
 MainContainer.Name = RandomString(8);
 MainContainer.Parent = SpaceHubGUI;
-MainContainer.BackgroundColor3 = Color3.fromRGB(15, 15, 15);
+MainContainer.BackgroundColor3 = Color3.fromRGB(20, 20, 20);
 MainContainer.BorderSizePixel = 0;
 MainContainer.Position = UDim2.new(0.5, 0, 0.5, 0);
-MainContainer.Size = UDim2.new(0, 250, 0, 140);
+MainContainer.Size = UDim2.new(0, 280, 0, 190);
 MainContainer.AnchorPoint = Vector2.new(0.5, 0.5);
 MainContainer.ClipsDescendants = true;
 
 UICorner.Parent = MainContainer;
-UICorner.CornerRadius = UDim.new(0, 8);
+UICorner.CornerRadius = UDim.new(0, 10);
 
 Header.Name = RandomString(6);
 Header.Parent = MainContainer;
-Header.BackgroundColor3 = Color3.fromRGB(25, 25, 25);
+Header.BackgroundColor3 = Color3.fromRGB(30, 30, 30);
 Header.BorderSizePixel = 0;
-Header.Size = UDim2.new(1, 0, 0, 32);
+Header.Size = UDim2.new(1, 0, 0, 40);
 
 HeaderCorner.Parent = Header;
-HeaderCorner.CornerRadius = UDim.new(0, 8);
+HeaderCorner.CornerRadius = UDim.new(0, 10);
 
 Title.Name = RandomString(6);
 Title.Parent = Header;
 Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255);
 Title.BackgroundTransparency = 1;
-Title.Position = UDim2.new(0, 12, 0, 0);
+Title.Position = UDim2.new(0, 15, 0, 0);
 Title.Size = UDim2.new(0, 200, 1, 0);
 Title.Font = Enum.Font.GothamBold;
 Title.Text = "SPACE HUB - TDS";
-Title.TextColor3 = Color3.fromRGB(220, 220, 220);
-Title.TextSize = 14;
+Title.TextColor3 = Color3.fromRGB(240, 240, 240);
+Title.TextSize = 16;
 Title.TextXAlignment = Enum.TextXAlignment.Left;
 
 CloseButton.Name = RandomString(6);
 CloseButton.Parent = Header;
-CloseButton.BackgroundColor3 = Color3.fromRGB(40, 40, 40);
+CloseButton.BackgroundColor3 = Color3.fromRGB(45, 45, 45);
 CloseButton.BorderSizePixel = 0;
-CloseButton.Position = UDim2.new(1, -28, 0, 4);
+CloseButton.Position = UDim2.new(1, -35, 0, 8);
 CloseButton.Size = UDim2.new(0, 24, 0, 24);
 CloseButton.Font = Enum.Font.GothamBold;
 CloseButton.Text = "×";
-CloseButton.TextColor3 = Color3.fromRGB(200, 200, 200);
-CloseButton.TextSize = 16;
+CloseButton.TextColor3 = Color3.fromRGB(220, 220, 220);
+CloseButton.TextSize = 18;
 
 CloseCorner.Parent = CloseButton;
-CloseCorner.CornerRadius = UDim.new(0, 4);
+CloseCorner.CornerRadius = UDim.new(1, 0);
 
 ContentFrame.Name = RandomString(8);
 ContentFrame.Parent = MainContainer;
 ContentFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255);
 ContentFrame.BackgroundTransparency = 1;
-ContentFrame.Position = UDim2.new(0, 0, 0, 32);
-ContentFrame.Size = UDim2.new(1, 0, 1, -32);
+ContentFrame.Position = UDim2.new(0, 0, 0, 40);
+ContentFrame.Size = UDim2.new(1, 0, 1, -40);
 
 ButtonContainer.Name = RandomString(8);
 ButtonContainer.Parent = ContentFrame;
 ButtonContainer.BackgroundColor3 = Color3.fromRGB(255, 255, 255);
 ButtonContainer.BackgroundTransparency = 1;
-ButtonContainer.Position = UDim2.new(0, 20, 0, 20);
-ButtonContainer.Size = UDim2.new(1, -40, 0, 40);
+ButtonContainer.Position = UDim2.new(0, 15, 0, 20);
+ButtonContainer.Size = UDim2.new(1, -30, 0, 110);
 
-GemsButton.Name = RandomString(6);
-GemsButton.Parent = ButtonContainer;
-GemsButton.BackgroundColor3 = Color3.fromRGB(80, 60, 160);
-GemsButton.BorderSizePixel = 0;
-GemsButton.Position = UDim2.new(0, 0, 0, 0);
-GemsButton.Size = UDim2.new(0.48, 0, 1, 0);
-GemsButton.Font = Enum.Font.GothamSemibold;
-GemsButton.Text = "GEMS";
-GemsButton.TextColor3 = Color3.fromRGB(240, 240, 240);
-GemsButton.TextSize = 12;
-GemsButton.TextWrapped = true;
+AutoMoneyButton.Name = RandomString(6);
+AutoMoneyButton.Parent = ButtonContainer;
+AutoMoneyButton.BackgroundColor3 = Color3.fromRGB(40, 150, 70);
+AutoMoneyButton.BorderSizePixel = 0;
+AutoMoneyButton.Position = UDim2.new(0, 0, 0, -15);
+AutoMoneyButton.Size = UDim2.new(1, 0, 0, 32);
+AutoMoneyButton.Font = Enum.Font.GothamSemibold;
+AutoMoneyButton.Text = "Auto Money";
+AutoMoneyButton.TextColor3 = Color3.fromRGB(250, 250, 250);
+AutoMoneyButton.TextSize = 14;
+AutoMoneyButton.TextWrapped = true;
 
-GemsCorner.Parent = GemsButton;
-GemsCorner.CornerRadius = UDim.new(0, 6);
+AutoMoneyCorner.Parent = AutoMoneyButton;
+AutoMoneyCorner.CornerRadius = UDim.new(0, 7);
 
-MoneyButton.Name = RandomString(6);
-MoneyButton.Parent = ButtonContainer;
-MoneyButton.BackgroundColor3 = Color3.fromRGB(60, 100, 160);
-MoneyButton.BorderSizePixel = 0;
-MoneyButton.Position = UDim2.new(0.52, 0, 0, 0);
-MoneyButton.Size = UDim2.new(0.48, 0, 1, 0);
-MoneyButton.Font = Enum.Font.GothamSemibold;
-MoneyButton.Text = "MONEY";
-MoneyButton.TextColor3 = Color3.fromRGB(240, 240, 240);
-MoneyButton.TextSize = 12;
-MoneyButton.TextWrapped = true;
+AutoGemsButton.Name = RandomString(6);
+AutoGemsButton.Parent = ButtonContainer;
+AutoGemsButton.BackgroundColor3 = Color3.fromRGB(180, 70, 140);
+AutoGemsButton.BorderSizePixel = 0;
+AutoGemsButton.Position = UDim2.new(0, 0, 0, 23);
+AutoGemsButton.Size = UDim2.new(1, 0, 0, 32);
+AutoGemsButton.Font = Enum.Font.GothamSemibold;
+AutoGemsButton.Text = "Auto Gems";
+AutoGemsButton.TextColor3 = Color3.fromRGB(250, 250, 250);
+AutoGemsButton.TextSize = 14;
+AutoGemsButton.TextWrapped = true;
 
-MoneyCorner.Parent = MoneyButton;
-MoneyCorner.CornerRadius = UDim.new(0, 6);
+AutoGemsCorner.Parent = AutoGemsButton;
+AutoGemsCorner.CornerRadius = UDim.new(0, 7);
+
+MacroButton.Name = RandomString(6);
+MacroButton.Parent = ButtonContainer;
+MacroButton.BackgroundColor3 = Color3.fromRGB(70, 120, 180);
+MacroButton.BorderSizePixel = 0;
+MacroButton.Position = UDim2.new(0, 0, 0, 61);
+MacroButton.Size = UDim2.new(1, 0, 0, 32);
+MacroButton.Font = Enum.Font.GothamSemibold;
+MacroButton.Text = "Macro Recorder";
+MacroButton.TextColor3 = Color3.fromRGB(250, 250, 250);
+MacroButton.TextSize = 14;
+MacroButton.TextWrapped = true;
+
+MacroCorner.Parent = MacroButton;
+MacroCorner.CornerRadius = UDim.new(0, 7);
 
 Footer.Name = RandomString(6);
 Footer.Parent = ContentFrame;
 Footer.BackgroundColor3 = Color3.fromRGB(255, 255, 255);
 Footer.BackgroundTransparency = 1;
-Footer.Position = UDim2.new(0, 0, 1, -30);
-Footer.Size = UDim2.new(1, 0, 0, 30);
+Footer.Position = UDim2.new(0, 0, 1, -35);
+Footer.Size = UDim2.new(1, 0, 0, 35);
 
 Divider.Name = RandomString(6);
 Divider.Parent = Footer;
-Divider.BackgroundColor3 = Color3.fromRGB(50, 50, 50);
+Divider.BackgroundColor3 = Color3.fromRGB(55, 55, 55);
 Divider.BorderSizePixel = 0;
 Divider.Position = UDim2.new(0, 0, 0, 0);
 Divider.Size = UDim2.new(1, 0, 0, 1);
@@ -155,44 +172,67 @@ DiscordLabel.Name = RandomString(8);
 DiscordLabel.Parent = Footer;
 DiscordLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255);
 DiscordLabel.BackgroundTransparency = 1;
-DiscordLabel.Position = UDim2.new(0, 5, 0, 6);
-DiscordLabel.Size = UDim2.new(0.7, -12, 1, -12);
+DiscordLabel.Position = UDim2.new(0, 10, 0, 8);
+DiscordLabel.Size = UDim2.new(1, -20, 1, -16);
 DiscordLabel.Font = Enum.Font.Gotham;
-DiscordLabel.Text = "Guide/Buy Premium: dsc.gg/ktC6dNVxDC";
-DiscordLabel.TextColor3 = Color3.fromRGB(150, 150, 150);
+DiscordLabel.Text = "Guide/Buy Premium: dsc.gg/spacerb";
+DiscordLabel.TextColor3 = Color3.fromRGB(160, 160, 160);
 DiscordLabel.TextSize = 13;
-DiscordLabel.TextXAlignment = Enum.TextXAlignment.Left;
+DiscordLabel.TextXAlignment = Enum.TextXAlignment.Center;
 
 local function createButtonEffect(button)
-    local originalColor = button.BackgroundColor3;
+    local originalR, originalG, originalB = button.BackgroundColor3.R * 255, button.BackgroundColor3.G * 255, button.BackgroundColor3.B * 255;
     
     button.MouseEnter:Connect(function()
         local tween = TweenService:Create(button, TweenInfo.new(0.2), {
             BackgroundColor3 = Color3.fromRGB(
-                math.min(originalColor.R * 255 + 20, 255),
-                math.min(originalColor.G * 255 + 20, 255),
-                math.min(originalColor.B * 255 + 20, 255)
-            ) / 255
+                math.min(originalR + 25, 255),
+                math.min(originalG + 25, 255),
+                math.min(originalB + 25, 255)
+            )
         });
         tween:Play();
     end);
     
     button.MouseLeave:Connect(function()
         local tween = TweenService:Create(button, TweenInfo.new(0.2), {
-            BackgroundColor3 = originalColor
+            BackgroundColor3 = Color3.fromRGB(originalR, originalG, originalB)
+        });
+        tween:Play();
+    end);
+    
+    button.MouseButton1Down:Connect(function()
+        local tween = TweenService:Create(button, TweenInfo.new(0.1), {
+            BackgroundColor3 = Color3.fromRGB(
+                math.max(originalR - 30, 0),
+                math.max(originalG - 30, 0),
+                math.max(originalB - 30, 0)
+            )
+        });
+        tween:Play();
+    end);
+    
+    button.MouseButton1Up:Connect(function()
+        local tween = TweenService:Create(button, TweenInfo.new(0.1), {
+            BackgroundColor3 = Color3.fromRGB(
+                math.min(originalR + 15, 255),
+                math.min(originalG + 15, 255),
+                math.min(originalB + 15, 255)
+            )
         });
         tween:Play();
     end);
 end;
 
-createButtonEffect(GemsButton);
-createButtonEffect(MoneyButton);
+createButtonEffect(AutoMoneyButton);
+createButtonEffect(AutoGemsButton);
+createButtonEffect(MacroButton);
 createButtonEffect(CloseButton);
 
 local function destroyGUI()
     local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.In);
     local tween = TweenService:Create(MainContainer, tweenInfo, {
-        Position = UDim2.new(0.5, -160, 1.5, 0),
+        Position = UDim2.new(0.5, 0, 1.5, 0),
         BackgroundTransparency = 1
     });
     tween:Play();
@@ -201,13 +241,18 @@ local function destroyGUI()
     end);
 end;
 
-GemsButton.MouseButton1Click:Connect(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ago106/tds-roblox/refs/heads/main/Scripts/Gems.lua"))()
+AutoMoneyButton.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Space-RB/Premium/refs/heads/main/Scripts/TDS/AutoMoney.lua"))();
     destroyGUI();
 end);
 
-MoneyButton.MouseButton1Click:Connect(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ago106/tds-roblox/refs/heads/main/Scripts/Money.lua"))()
+AutoGemsButton.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Space-RB/Premium/refs/heads/main/Scripts/TDS/AutoGems.lua"))();
+    destroyGUI();
+end);
+
+MacroButton.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Space-RB/Premium/refs/heads/main/Scripts/TDS/Recorder.lua"))();
     destroyGUI();
 end);
 
@@ -254,11 +299,11 @@ UserInputService.InputChanged:Connect(function(input)
     end;
 end);
 
-MainContainer.Position = UDim2.new(0.5, -160, 0.3, -80);
+MainContainer.Position = UDim2.new(0.5, 0, 0.3, 0);
 MainContainer.BackgroundTransparency = 1;
 
 local entranceTween = TweenService:Create(MainContainer, TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
-    Position = UDim2.new(0.5, -160, 0.5, -80),
+    Position = UDim2.new(0.5, 0, 0.5, 0),
     BackgroundTransparency = 0
 });
 entranceTween:Play();
