@@ -4,5 +4,6 @@ local EventKeys = {
  ["oOq8sk2h6h2y2qQRy6RT9EZmJEVgek4Q"] = "1a927f6d711ddaf7e8a9321d3b7826f631aafc37bdbc6049b424579a73ac7631", -- 962027392686239774 / lifetime
  ["2d5CQcgRjMVgI4eielpajNFckFvPRBRn"] = "16e134bf-b662-11f0-8273-806e6f6e6963", -- 1064982220441407578 / 3d / 14.12.2025
  ["LTE3JLM3Y0OeG9ipuam4v2xG0paLTLRa"] = "3b93136311d276e6", -- 1265332206348275804 / 1d / 13.12.2025
+ ["AKWbrK7dx2amuhTSshVQut6nVxTiWBJx"] = "Instructions to submit your HWID have been sent to your DMs.", -- 959812742808735786 / 1d / 13.12.2025
 }
 return EventKeys;
