@@ -10,4 +10,19 @@ https://funpay.com/users/6897346/
 https://robloxcheatz.com/product?id=e4d3c8eb-9dfb-473b-9b1d-10979d35cfd1&ref=space
 ]]
 
+local LocalPlayer = game:GetService("Players").LocalPlayer
+local function getExecutor()
+    return (identifyexecutor and identifyexecutor()) or (getexecutorname and getexecutorname()) or "Unknown"
+end
+
+local executor = getExecutor()
+
+if executor == "Solara" or executor == "Xeno" or executor == "Velocity" or executor == "JJSploit x Xeno" or executor == "Zeno" or executor == "Luna" then
+  LocalPlayer:Kick("Executor not supported.")
+  while true do
+    print("Hello World!")
+  end
+  return
+end
+
 loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/2725106521577100"))()
