@@ -10,7 +10,7 @@ https://funpay.com/users/6897346/
 https://robloxcheatz.com/product?id=e4d3c8eb-9dfb-473b-9b1d-10979d35cfd1&ref=space
 ]]
 
-local LocalPlayer = game:GetService("Players").LocalPlayer
+--[[local LocalPlayer = game:GetService("Players").LocalPlayer
 local function getExecutor()
     return (identifyexecutor and identifyexecutor()) or (getexecutorname and getexecutorname()) or "Unknown"
 end
@@ -23,6 +23,6 @@ if executor == "Solara" or executor == "Xeno" or executor == "Velocity" or execu
     print("Hello World!")
   end
   return
-end
+end]]
 
 loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/2725106521577100"))()
